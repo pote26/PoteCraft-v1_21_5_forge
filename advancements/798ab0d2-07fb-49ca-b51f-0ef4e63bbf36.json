@@ -9,11 +9,13 @@
     "criteria": {
       "minecraft:deep_cold_ocean": "2025-04-06 08:31:43 +0000",
       "minecraft:cold_ocean": "2025-04-06 06:37:52 +0000",
+      "minecraft:old_growth_birch_forest": "2025-04-10 05:24:54 +0000",
       "minecraft:beach": "2025-04-06 04:59:34 +0000",
       "minecraft:forest": "2025-04-06 08:18:33 +0000",
       "minecraft:cherry_grove": "2025-04-06 08:22:44 +0000",
       "minecraft:river": "2025-04-06 08:22:59 +0000",
       "minecraft:meadow": "2025-04-06 05:00:31 +0000",
+      "minecraft:birch_forest": "2025-04-10 05:22:45 +0000",
       "minecraft:stony_shore": "2025-04-06 08:23:21 +0000",
       "minecraft:dripstone_caves": "2025-04-07 09:14:55 +0000",
       "minecraft:plains": "2025-04-06 04:55:49 +0000"
@@ -1811,6 +1813,7 @@
       "minecraft:spider": "2025-04-07 16:33:04 +0000",
       "minecraft:zombie": "2025-04-07 15:50:00 +0000",
       "minecraft:creeper": "2025-04-07 16:33:09 +0000",
+      "minecraft:drowned": "2025-04-10 05:17:54 +0000",
       "minecraft:zombie_villager": "2025-04-07 16:32:01 +0000"
     },
     "done": false
@@ -2295,12 +2298,6 @@
     },
     "done": true
   },
-  "minecraft:story/obtain_armor": {
-    "criteria": {
-      "iron_boots": "2025-04-09 14:29:39 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2025-04-09 14:08:50 +0000"
@@ -2334,6 +2331,132 @@
   "minecraft:recipes/building_blocks/tuff_brick_slab": {
     "criteria": {
       "has_tuff_bricks": "2025-04-09 14:08:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2025-04-09 14:29:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2025-04-10 05:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-04-10 06:03:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-04-10 06:03:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2025-04-10 05:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2025-04-10 05:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-04-10 06:03:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2025-04-10 05:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-04-10 05:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-04-10 06:03:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-04-10 05:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-04-10 05:16:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/field_masoned_banner_pattern": {
+    "criteria": {
+      "has_bricks": "2025-04-10 05:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-04-10 05:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-04-10 05:28:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-04-10 05:16:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-04-10 06:03:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2025-04-10 05:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-04-10 06:03:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-04-10 05:28:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-04-10 05:33:26 +0000"
     },
     "done": true
   },
